@@ -1,2 +1,3 @@
 # mokoto_vote
-Learning Mokoto with a Voting Platform
+I was introduced to Mokoto in an Zero to DApp ICPHUBGH session.
+Learning Mokoto with a Voting Platform 
