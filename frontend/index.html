@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Voting App</h1>
+
+    <div class="container">
+        <h2>Add Candidate</h2>
+        <input type="text" id="addCandidateInput" class="candidate-input" placeholder="Candidate Name">
+        <button id="addCandidateButton" class="button">Add Candidate</button>
+    </div>
+
+    <div class="container">
+        <h2>Vote</h2>
+        <input type="text" id="voteInput" class="vote-input" placeholder="Candidate Name">
+        <button id="voteButton" class="button">Vote</button>
+    </div>
+
+    <div class="container">
+        <h2>Get Votes</h2>
+        <input type="text" id="getVotesInput" class="vote-input" placeholder="Candidate Name">
+        <button id="getVotesButton" class="button">Get Votes</button>
+    </div>
+
+    <div class="container">
+        <h2>Get Candidates</h2>
+        <button id="getCandidatesButton" class="button">Get Candidates</button>
+    </div>
+
+    <div class="container">
+        <h2>Reset Voting</h2>
+        <button id="resetButton" class="button">Reset</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@dfinity/agent@0.19.3/dist/index.js"></script>
+    <script src="https://unpkg.com/@dfinity/candid@0.19.3/dist/index.js"></script>
+    <script src="https://unpkg.com/@dfinity/principal@0.19.3/dist/index.js"></script>
+    <script src="https://unpkg.com/@dfinity/ic-canduit@0.19.3/dist/index.js"></script>
+</body>
+</html>
